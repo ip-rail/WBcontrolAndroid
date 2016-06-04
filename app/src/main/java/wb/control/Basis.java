@@ -1247,7 +1247,7 @@ public class Basis extends Service {
                                     } else    // Download war fehlerhaft
                                     {
                                         Basis.AddLogLine(bc.getString(R.string.err_upd_download), LOGTAG, wblogtype.Error);
-                                        // TODO: DownloadID ebenfalls löschen oder was anderes machen?
+                                        // TODO: DownloadID ebenfalls löschen oder was anderes machen??
                                     }
                                 }
 							}
