@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Control Layout für Landscape auf Geräten kleiner als Large (Speedbar wird zu klein) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spinner_control_device"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout_ae_links"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView_trainspeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:layout_marginRight="8dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout_ae_rechts"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <ToggleButton
+                    android:id="@+id/toggleButton_pauseall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="ToggleButton"
+                    android:textOff="@string/pause_all"
+                    android:textOn="@string/pause_all" >
+                </ToggleButton>
+
+                <ToggleButton
+                    android:id="@+id/toggleButton_stopall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="ToggleButton"
+                    android:textOff="@string/stop_all"
+                    android:textOn="@string/stop_all" >
+                </ToggleButton>
+
+                <ToggleButton
+                    android:id="@+id/toggleButton_rangier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="ToggleButton"
+                    android:textOff="@string/Rangieren"
+                    android:textOn="@string/Rangieren" >
+                </ToggleButton>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/Button_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="15dip"
+                android:layout_weight="1"
+                android:minWidth="50dip"
+                android:text="@string/vorwaerts" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="10dip"
+                android:layout_weight="1"
+                android:minWidth="50dip"
+                android:text="@string/start" >
+            </Button>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_act"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_ctrl_ramp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/control_rampe" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button_ctrl_disconnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/disconnect" >
+            </Button>
+
+            <ImageButton
+                android:id="@+id/imageButton_guestkey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="@dimen/button_max_h"
+                android:maxWidth="@dimen/button_max_w"
+                android:minWidth="@dimen/button_min_w"
+                android:src="@android:drawable/ic_lock_idle_lock" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <wb.control.views.VerticalSeekBar
+        android:id="@+id/verticalSeekBar1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/space_std_h"
+        android:layout_marginLeft="@dimen/space_std_w"
+        android:layout_marginRight="@dimen/space_std_w"
+        android:layout_marginTop="@dimen/space_std_h"
+        android:layout_weight="2"
+        android:progressDrawable="@drawable/progress_vertical" />
+
+</LinearLayout>

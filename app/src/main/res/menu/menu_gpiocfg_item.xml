@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menui_gpiocfg_name" android:title="@string/mnu_gpiocfg_name"></item>
+    <item android:id="@+id/menui_gpiocfg_use" android:title="@string/mnu_gpiocfg_use"></item>
+    <item android:id="@+id/menui_gpiocfg_release" android:title="@string/mnu_gpiocfg_release"></item>
+</menu>

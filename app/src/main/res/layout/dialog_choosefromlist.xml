@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView_dialog_cfl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_cfl_spinnerinfo" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:textSize="18sp" android:layout_marginTop="10dip" android:layout_marginLeft="10dip"/>
+
+
+    <Spinner
+        android:id="@+id/spinner_dialog_cfl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginLeft="20dip" android:layout_alignBaseline="@id/textView_dialog_cfl" android:layout_toRightOf="@id/textView_dialog_cfl"/>
+    
+    <ListView
+        android:id="@+id/listView_dialog_cfl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" android:layout_marginTop="10dip" android:layout_below="@id/spinner_dialog_cfl">
+    </ListView>
+
+    <Button
+        android:id="@+id/button_dialog_cfl_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/listView_dialog_cfl"
+        android:text="@string/gen_cancel" android:paddingLeft="30dip" android:paddingRight="30dip" android:layout_marginLeft="20dip" android:layout_marginRight="20dip"/>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView_dialog_cfg_intseek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="4dp"
+        android:text="TextView"
+        android:textAppearance="@style/txt_dialog_headline" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout_dialog_cfg_intseek"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/textView_dialog_cfg_intseek"
+        android:layout_marginLeft="@dimen/space_std_w"
+        android:layout_marginRight="@dimen/space_std_w" >
+
+        <TextView
+            android:id="@+id/textView_dialog_cfg_intseek2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="@dimen/space_std_w"
+            android:layout_marginRight="@dimen/space_std_w"
+            android:layout_marginTop="4dp"
+            android:paddingTop="16dp"
+            android:text="@string/dialog_cfg_int_seek_example"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar_dialog_cfg_intseek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/frameLayout_dialog_cfg_intseek"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar_dialog_cfg_intseek"
+        android:paddingTop="4dp" >
+
+        <Button
+            android:id="@+id/button_dialog_cfg_intseek_save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/button_dialog_cfg_intseek_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:text="@string/gen_cancel" />
+    </LinearLayout>
+
+</RelativeLayout>

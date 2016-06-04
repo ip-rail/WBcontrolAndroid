@@ -1,0 +1,30 @@
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+
+    defaultConfig {
+        applicationId "wb.control"
+        minSdkVersion 7
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    useLibrary 'org.apache.http.legacy'
+
+}
+
+dependencies {
+    compile 'com.github.japgolly.android:svg-android:2.0.6'
+    compile 'com.android.support:palette-v7:23.4.0'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:gridlayout-v7:23.4.0'
+}

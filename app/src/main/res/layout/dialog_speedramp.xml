@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:minHeight="64dp"
+    android:minWidth="100dp"
+    android:orientation="vertical"
+    android:padding="@dimen/space_std_w" >
+
+    <EditText
+        android:id="@+id/editText_dialog_ramp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/space_std_h"
+        android:layout_marginLeft="@dimen/space_std_w"
+        android:layout_marginRight="@dimen/space_std_w"
+        android:layout_marginTop="@dimen/space_std_h"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <SeekBar
+        android:id="@+id/seekBar_dialog_ramp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_std_w"
+        android:layout_marginTop="@dimen/space_std_w" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_std_w"
+        android:gravity="clip_horizontal" >
+
+        <Button
+            android:id="@+id/button_dialog_ramp_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_std_w"
+            android:minHeight="64dp"
+            android:minWidth="100dp"
+            android:text="@string/save" >
+
+</Button>
+
+        <Button
+            android:id="@+id/button_dialog_ramp_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_std_w"
+            android:minHeight="64dp"
+            android:minWidth="100dp"
+            android:text="@string/cancel" >
+
+</Button>
+    </LinearLayout>
+    
+</LinearLayout>

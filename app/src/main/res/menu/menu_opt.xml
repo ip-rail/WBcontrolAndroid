@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:wb.control="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menui_ctrl" android:titleCondensed="@string/mnu_ctrl" android:title="@string/mnu_ctrl" wb.control:showAsAction="always"></item>
+    <item android:id="@+id/menui_action" android:titleCondensed="@string/mnu_action" android:title="@string/mnu_action" wb.control:showAsAction="always"></item>
+    <item android:title="@string/mnu_loks" android:id="@+id/menui_loks" android:titleCondensed="@string/mnu_loks" wb.control:showAsAction="ifRoom"></item>
+    <item android:title="@string/mnu_loks2" android:id="@+id/menui_loks2" android:titleCondensed="@string/mnu_loks2" wb.control:showAsAction="ifRoom"></item>
+    <item android:title="@string/mnu_macro" android:id="@+id/menui_macro" android:titleCondensed="@string/mnu_macro" wb.control:showAsAction="ifRoom"></item>
+    <item android:title="@string/mnu_test" android:id="@+id/menui_test" android:titleCondensed="@string/mnu_test" wb.control:showAsAction="ifRoom"></item>
+    <item android:title="@string/mnu_cfg" android:id="@+id/menui_cfg" android:titleCondensed="@string/mnu_cfg_short" wb.control:showAsAction="never" android:icon="@drawable/ic_action_settings" android:orderInCategory="90"></item>
+    <item android:title="@string/mnu_help" android:id="@+id/menui_help" android:titleCondensed="@string/mnu_help" wb.control:showAsAction="never" android:orderInCategory="95"></item>
+    <item android:title="@string/mnu_exit" android:id="@+id/menui_exit" android:titleCondensed="@string/mnu_exit" wb.control:showAsAction="never" android:orderInCategory="99"></item>
+    
+    <item android:title="@string/mnu_add_item" android:id="@+id/menui_add_item" android:titleCondensed="@string/mnu_add_item" wb.control:showAsAction="always" android:icon="@drawable/ic_action_new" android:orderInCategory="10"></item>
+    <item android:title="@string/mnu_delete_item" android:id="@+id/menui_delete_item" android:titleCondensed="@string/mnu_delete_item" wb.control:showAsAction="always" android:icon="@drawable/ic_action_discard" android:orderInCategory="20"></item>
+    
+    
+</menu>

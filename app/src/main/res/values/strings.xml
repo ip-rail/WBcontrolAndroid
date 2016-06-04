@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WBcontrol</string>
+    <string name="device">Device</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="app_starting">WBcontrol starting..</string>
+    <string name="pause_all">Pause all</string>
+    <string name="stop_all">Stop all</string>
+    <string name="Rangieren">shunt</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="stop" translatable="false">Stop</string>
+    <string name="vorwaerts" translatable="false">&gt;</string>
+    <string name="rueckwaerts" translatable="false">&lt;</string>
+    <string name="speed_is" translatable="false">Speed=</string><string name="b_action">Action</string>
+    <string name="ctrl_ts" translatable="false">TS=</string>
+    <string name="ctrl_us" translatable="false">Us=%1$s</string>
+    <string name="ctrl_pauseall_active">PauseAll was triggered!</string>
+    <string name="ctrl_stopall_active">StopAll was triggered!</string>
+    <string name="ctrl_ts_rcv_error">Received TrainSpeed-msg, but CCDevice = null.</string>
+    <string name="ctrl_dev_disconnect_error">Error disconnecting device:</string>
+    
+    <string name="b_cfg">CFG</string><string name="b_control">CTRL</string>
+    <string name="b_exit">exit</string><string name="b_loks">Locos</string>
+    <string name="b_macro">Macro</string>
+    <string name="b_test">Test</string>
+    <string name="header_cfg">Basic settings</string>
+    <string name="loks_sw">Loco software:</string>
+    <string name="loks_protocol">Protocol:</string>
+    <string name="loks_owner">Owner:</string>
+    <string name="loks_type">Loco-Typ:</string>
+    <string name="loks_wlan">WIFI-module:</string>
+    <string name="loks_pwmf">Motor PWM-frequency</string>
+    <string name="loks_motorcontrol">Motor control</string>
+    <string name="loks_adc" translatable="false">ADC</string>
+    <string name="loks_opt_props">optional properties:</string>
+    <string name="cfg_titel">Basic settings</string>
+    
+    <string name="cfg_ip">manual Loco-IP</string>
+    <string name="cfg_tcpport" translatable="false">tcp-Server-Port</string>
+    <string name="cfg_udpport" translatable="false">udp-Port</string>
+    <string name="cfg_speedsteps">Speedsteps</string>
+    <string name="cfg_rangiermax">ShuntingSpeed max</string>
+    <string name="cfg_use_server">use server</string>
+    <string name="cfg_master">I\'m Mastercontroller</string>
+    <string name="cfg_testmode">Testmode</string>
+    <string name="cfg_protocol">Protocol</string>
+    <string name="end_info2">Alle Verbindungen wurden getrennt, Dienste beendet..</string>
+    <string name="end_info1">All connections and background-services are being shut down..</string>
+    <string name="end_info_upd">Updating software: All connections and background-services are being shut down..</string>
+    <string name="end_restart" translatable="false">Restart</string>
+    <string name="prot_wbcontrol_cmd_back" translatable="false">&lt;richtung:rw&gt;</string>
+    <string name="prot_wbcontrol_cmd_forward" translatable="false">&lt;richtung:vw&gt;</string>
+    <string name="prot_wbcontrol_cmd_atconnect" translatable="false">&lt;hwget&gt;&lt;swget&gt;&lt;fpwmget&gt;</string>
+    <string name="macro_edit_macro_edit">Edit macro</string>
+    <string name="macro_edit_event_edit">Edit event</string>
+    <string name="macro_edit_rfid_edit">Edit RFID</string>
+
+    <string name="comment">Description</string>
+    <string name="rfid_code" translatable="false">RFID-Code</string>
+    <string name="test_titel_log" translatable="false">Log</string>
+    
+    <string name="startup_dontconnect">start without a connection</string>
+    <string name="startup_enter_ip">manual connection (select = long click)</string>
+    <string name="startup_titel_devauswahl">Choose loco-connection</string>
+    <string name="mnu_ctrl" translatable="false">Control</string>
+    <string name="mnu_action" translatable="false">Action</string>
+    <string name="mnu_loks" translatable="false">Loks</string>
+    <string name="mnu_loks2" translatable="false">Loks2</string>
+    <string name="mnu_macro" translatable="false">Macro</string>
+    <string name="mnu_cfg">Settings</string>
+    <string name="mnu_help">Help</string>
+    <string name="mnu_test" translatable="false">Test</string>
+    <string name="mnu_exit" translatable="false">Shutdown</string>
+    <string name="mnu_cfg_short">Set</string>
+    <string name="mnu_add_item">new</string>
+    <string name="mnu_delete_item">delete</string>
+
+    <string name="device_none_selected">no device selected</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="mnu_action_add">Add element</string>
+    <string name="mnu_action_move">Move element </string>
+    <string name="mnu_action_edit">Edit element</string>
+    <string name="mnu_action_del">Remove element</string>
+    <string name="mnu_action_exit">Exit edit mode</string>
+    <string name="action_text">Text</string>
+    <string name="action_button">Button</string>
+    <string name="action_picbutton">PictureButton</string>
+    <string name="action_pic">Picture</string>
+    <string name="action_ae_edit_titel_new">new element</string>
+    <string name="action_ae_edit_titel_edit">change element</string>
+    <string name="action_macro">Macro</string>
+    <string name="action_ae_edit_scope">for devices</string>
+    <string name="action_ae_edit_scopedata_type">types</string>
+    <string name="action_edit_layout">edit layout</string>
+    <string name="action_titel">Action</string>
+    <string name="action_addae">add element</string>
+    <string name="gen_close">Close</string>
+    <string name="help_action">Use the context-menu to changed or deleted an element (by long-clicking).</string>
+    <string name="action_help_titel">Infos</string>
+    <string name="test_update_log" translatable="false">Update Log</string>
+    <string name="control_rampe">Ramp</string>
+    <string name="control_dialog_ramp_plus" translatable="false">+</string>
+    <string name="control_dialog_ramp_minus" translatable="false">-</string>
+    <string name="control_dialog_ramp_titel">Speed ramp</string>
+    <string name="gen_connected">connected</string>
+    <string name="control_dialog_disconnect_titel">disconnect</string>
+    <string name="control_dialog_disconnect_txt">Disconnect network-connection to controlled device? </string>
+    <string name="gen_cancel">Cancel</string>
+    <string name="cfg_loglevel" translatable="false">Loglevel</string>
+    <string name="get_not_connected">not connected</string>
+    <string name="test_dev_adddev">Add device</string>
+    <string name="test_dialog_adddev_titel">Add Loco</string>
+    <string name="test_dialog_adddev_name" translatable="false">Name</string>
+    <string name="test_dialog_adddev_ip">IP-address</string>
+    <string name="test_dialog_adddev_isman">(created manually)</string>
+    <string name="mnu_testdevs_edit">Edit</string>
+    <string name="mnu_testdevs_del">Remove</string>
+    <string name="test_dialog_editdev_titel">Edit Loco</string>
+    <string name="startup_retry">retry..</string>
+    <string name="action_macro_on">Macro On</string>
+    <string name="action_macro_off">Macro Off</string>
+    <string name="mnu_macro_del">Delete</string>
+    <string name="mnu_macro_new">Add new Macro </string>
+    <string name="mnu_macro_copy">Copy</string>
+    <string name="macro_adddev_enternewname">enter devicename manually (long click to select)</string>
+    <string name="macro_adddev_choosefromlist">or choose from list:</string>
+    <string name="test_log_info">entries</string>
+    <string name="log_saved">Log has been saved to the logfile.</string>
+    <string name="gen_not_ipv4">not a valid ipv4-address!</string>
+    <string name="gen_not_int">not a valid input (number must be 0 to 65535)</string>
+    <string name="cfg_screensaver">Screensaver</string>
+    <string name="b_changesize">big&lt;-&gt;small</string>
+    <string name="gen_ready">ready</string>
+    <string name="mnu_lokpic_camera">Take a new picture</string>
+    <string name="mnu_lokpic_gallery">choose picture from gallery</string>
+    <string name="gen_gets_disconnected">Disconnecting</string>
+    <string name="gen_delete">Delete</string>
+    <string name="action_ae_edit_datatype">datatype</string>
+    <string name="action_ae_edit_location">Display area</string>
+    <string name="action_ae_edit_scopedata_datasource">datasource</string>
+    <string name="dialog_cfl_title">Deviceselection</string>
+    <string name="dialog_cfl_spinnerinfo">Devicetype</string>
+    <string name="dialog_cfl_adddev" translatable="false">+</string>
+    <string name="gen_add" translatable="false">+</string>
+    <string name="dialog_cfl_ccd">currently controlled device</string>
+    <string name="mnu_lokpic_edit">Edit picture</string>
+    <string name="gen_minus" translatable="false">-</string>
+    <string name="macro_edit_remdev_msg">Really removing this device from the macro?</string>
+    <string name="macro_edit_remdev_title">Title</string>
+    <string name="gen_no">No</string>
+    <string name="gen_yes">Yes</string>
+    <string name="track_tools">Tools</string>
+    <string name="trackview_new_trackplan">new layout</string>
+    <string name="trackview_trackelement_unknown">unknown</string>
+    <string name="trackplan_dialog_planname_title">existing layouts</string>
+    <string name="trackplan_dialog_actions_title">Actions</string>
+    <string name="trackplan_dialog_planname_new">*new plan*</string>
+    <string name="trackplan_edit">edit</string>
+    <string name="trackplan_actions">Menu</string>
+    <string name="trackplan_dialog_plandel_title">Choose layout to delete</string>
+    <string name="dialog_ac_stream_title">Choose stream to display</string>
+    <string name="bas_net_available">network is available</string>
+    <string name="bas_net_not_available">network is not available</string>
+    <string name="macro_name_stddevice" translatable="false">Standard</string>
+    <string name="dialog_cfg_int_seek_example">example</string>
+    <string name="control_kmh" translatable="false">km/h</string>
+    <string name="log_progstart">Start</string>
+    <string name="log_api" translatable="false">Android API level</string>
+    <string name="log_extstate" translatable="false">ExternalStorageState</string>
+    <string name="log_intpath" translatable="false">internal Filespath</string>
+    <string name="log_extpath" translatable="false">External Filespath</string>
+    <string name="bas_upd_ver_url" translatable="false">http://ip-rail.github.io/download/updateinfo.xml</string>
+    <string name="bas_inet_avail_testurl" translatable="false">http://www.google.com</string>
+    <string name="bas_inet_avail_error">Error at checking Internet connection</string>
+    <string name="err_upd_no_inet">Kein Internet verfügbar</string>
+    <string name="err_upd_ver_url">UpdateVersionURL error</string>
+    <string name="err_upd_ver_url_open">Error opening UpdateVersionURL</string>
+    <string name="err_upd_ver_instream">Error creating UpdateVersion InputStream</string>
+    <string name="err_upd_ver_instream_read">Error reading from UpdateVersion InputStream</string>
+    <string name="bas_upd_ver_online">Newest online available program-version = %1$d</string>
+    <string name="bas_upd_nothingnew">No update available</string>
+    <string name="bas_upd_no_nw">can\'t check for update - network not connected</string>
+    <string name="bas_upd_not_allowed">Update-check disabled by user-settings</string>
+    <string name="bas_upd_prog_url" translatable="false">http://ip-rail.github.io/download/</string>
+    <string name="dialog_upd_title">Update available: Version %1$d</string>
+    <string name="dialog_upd_msgtxt">A new version of WBcontrol is available online. Do you want to download and install it now?</string>
+    <string name="dialog_upd_bt_later">Later</string>
+    <string name="dialog_upd_bt_download">only download</string>
+    <string name="dialog_upd_bt_dlandinst">install now</string>
+    <string name="bas_upd_download_ready">The new program-version has been downloaded.</string>
+    <string name="err_upd_ver_comp_str">Wrong format for version!</string>
+    <string name="gen_apk_mime" translatable="false">application/vnd.android.package-archive</string>
+    <string name="inf_progupd_inst">Starting software update</string>
+    <string name="bas_upd_download_ok">Update-download was successful</string>
+    <string name="err_upd_download">Error at update-download!</string>
+    <string name="tag_frag1" translatable="false">fragcontainer1</string>
+    <string name="wlancheck_con">WIFI connection established!</string>
+    <string name="wlancheck_discon">WIFI disconnected!</string>
+    <string name="startup_wlan_off">WIFI not activated!</string>
+    <string name="startup_ip_notfound">IP-Address not found!</string>
+    <string name="startupip_invalid">IP-address it no vaild IPv4-address!</string>
+    <string name="startup_wlan_ncon">Error: Es ist kein WLAN-Netzwerk verbunden!</string>
+    <string name="startup_check_nw">Please check your network configuration.</string>
+    <string name="startup_noipv6">Notice: WBcontrol doesn\'t work with IPv6-Addresses.</string>
+    <string name="startup_base_started">Basis-Service wurde gestartet&#x2026;</string>
+    <string name="startup_base_rdy">Basis-Service ist bereit!</string>
+    <string name="startup_infos">Version Infos v%1$d\nMany new features</string>
+    <string name="startup_man_conn">manual connection</string>
+    <string name="dialog_key_title">Enter password</string>
+   <string name="dialog_key_infotxt">for exiting guest-mode</string>
+   <string name="gen_ok" translatable="false">OK</string>
+   <string name="gen_connecting">Connecting</string>
+   <string name="action2_change_settings">change</string>
+   <string name="dialog_action2_col">Columns</string>
+   <string name="dialog_action2_row">Rows</string>
+   <string name="dialog_action2_title">change action elements</string>
+   <string name="dialog_action2_grid_title">change raster size</string>
+   <string name="bas_svc_notification_title">WBcontrol System Service</string>
+   <string name="bas_svc_notification_info_running">Running in background! Touch to stop.</string>
+   <string name="udpw_svc_end">UDPwaiter-Service has been terminated!</string>
+   <string name="udpw_thread_start">UDPwaiter-thread has been started!</string>
+   <string name="err_socket_creation">Socket could not be created!</string>
+   <string name="err_sending">Error sending:</string>
+   <string name="udpw_combuffer_crap">Command buffer polluted:</string>
+   <string name="udpw_combuffer_full">Command buffer full!</string>
+   <string name="proto_wbc">Protocol = WBcontrol</string>
+   <string name="gen_cmd_check">Parsing command:</string>
+   <string name="udpw_wloop_exit">UDPwaiter-Thread Arbeitsloop wurde verlassen!</string>
+   <string name="udpw_thread_exit">Exiting UDPwaiter-thread!</string>
+   <string name="msg_from_loco">Message from Loco:</string>
+   <string name="err_pauseall_illegal_end">Refused: Device %1$s tried to end command pauseall not issued by the same device!</string>
+   <string name="err_pauseall_end_wo_start">Verweigert: Ein Gerät wollte einen Befehl &lt;pauseall&gt; aufheben, der nicht empfangen wurde! </string>
+   <string name="err_cmd_unknown">unknown command:</string>
+   <string name="netw_connecting">Connecting: IP=%1$s Port=%2$d</string>
+   <string name="netw_conn_failed">Connection failed.</string>
+   <string name="netw_conn_refused">Connection refused:</string>
+   <string name="netw_conn_unknown_err">Uncnown connection error:</string>
+   <string name="netw_err_tcp_io_host">Error creating tcp-i/o-streams: Unknown host</string>
+   <string name="netw_err_tcp_io">Error creating tcp-i/o-streams:</string>
+   <string name="netw_err_closing_tcp">Error closing tcp-connection:</string>
+   <string name="netw_err_reading">Error reading:</string>
+   <string name="netw_dev_data">Device %1$s: received string: %2$s</string>
+   <string name="netw_loop_exit">: exit DevNetWaiter loop</string>
+   <string name="netw_err_speed_conversion">Error converting speed to a number!</string>
+   <string name="netw_err_adc_conversion1">Failed converting ADC-Index %1$s to Integer</string>
+   <string name="netw_err_adc_conversion2">Failed converting ADC-Value %1$s to Integer</string>
+   <string name="netw_err_gpio_conversion">Failed converting mask-data %1$s to Integer. Port Information will be ignored.</string>
+    <string name="netw_err_hwid_conversion">Failed converting Hardware-ID %1$s to Integer</string>
+   <string name="netw_err_devname_dup">%1$s: Device hat sich mit anderem Namen (%2$s) gemeldet!</string>
+   <string name="netw_rec_rfid">%1$s: RFID: received %2$s </string>
+   <string name="err_writing">Error writing!</string>
+   <string name="netwr_to_write">To write:</string>
+   <string name="netwr_err_open_stream">OutputStream could not be opened!</string>
+   <string name="netwr_err_netwrite">Netwrite did not work!</string>
+   <string name="netwr_loop_exit">: exit DevNetWriter loop</string>
+   <string name="netwr_err_ending">Error closing</string>
+   <string name="bas_ftimer_started">fastTimer started!!!</string>
+   <string name="bas_wlan_not_active">Start: WIFI is not activated!</string>
+   <string name="bas_no_ip">Start: unable to determine IP-address!</string>
+   <string name="bas_ip_no_v4">Start: IP is not a valid IPv4-address!</string>
+   <string name="bas_wlan_not_connected">Start: no WIFI-Network connected!</string>
+   <string name="bas_avail_netw">Available Networks:\r\n</string>
+   <string name="bas_err_wlan_check">ERROR: at WLAN-Check:</string>
+   <string name="bas_udpw_started">UDPWaiter-Service is starting..</string>
+   <string name="bas_err_udpw_start">ERROR: unable to start UDPWaiter-Service!</string>
+   <string name="bas_err_dc_all">error at DisconnectAll (Devices):</string>
+   <string name="bas_err_get_loc_ip">error getting local IP-address:</string>
+   <string name="bas_err_get_pic">error at getting photo</string>
+   <string name="hkey_title">Hardware buttons</string>
+   <string name="hkey_info">Press key to add or identify..</string>
+   <string name="mnu_hardkeys_edit">Edit</string>
+   <string name="mnu_hardkeys_del">Delete</string>
+   <string name="dialog_hkey_title">change key-configuration</string>
+   <string name="dialog_hkey_keytype">Key-typ</string>
+   <string name="dialog_hkey_function">Function</string>
+   <string name="dialog_hkey_customname_info">custom name for this key</string>
+   <string name="gen_next">Next</string>
+   <string name="dialog_hkey_keyinfo">Hardwarekey</string>
+   <string name="dialog_hkey_function2">Function 2</string>
+   <string name="dialog_hkey_macro1" translatable="false">Macro 1</string>
+   <string name="dialog_hkey_macro2" translatable="false">Macro 2</string>
+   <string name="hkey_key">Key #</string>
+   <string name="mcmd_auto" translatable="false">AUTO</string>
+   <string name="mcmd_on" translatable="false">ON</string>
+   <string name="mcmd_off" translatable="false">OFF</string>
+   <string name="mcmd_event" translatable="false">Event</string>
+   <string name="mcmd_macro" translatable="false">Macro</string>
+   <string name="drawer_open">Open navigation drawer</string>
+   <string name="drawer_close">Close navigation drawer</string>
+   <string name="drawer_header_txt">Control</string>
+   <string name="lokdata_man_lok">manually created</string>
+   <string name="dev_no_response">Alive-Check:%1$s %2$s: no msg for too long!</string>
+   <string name="dev_no_udata">No U-value for index %1$d in device %2$s!</string>
+   <string name="netw_log_ping">Ping for device %1$s: %2$dms.</string>
+   <string name="cmd_wlandl_ramp" translatable="false">i10 %1$d  </string>
+   <string name="lokdata_alivechk_msg">Constantly checking network-connection to this device?</string>
+   <string name="lokdata_alivechk_title">Lifesign Check</string>
+   <string name="cmd_camctrl_move" translatable="false">&lt;move:%1$d:%2$d&gt;</string>
+   <string name="cmd_servoctrl_move" translatable="false">&lt;servomove:%1$d:%2$d&gt;</string>
+   <string name="cmd_alive" translatable="false">&lt;alive&gt;</string>
+   <string name="action_ae_edit_scopedata_name">name</string>
+   <string name="netw_msg_motorerror" translatable="false">Motor-Error: %1$d (HB1=%2$d, HB2=%3$d)</string>
+   <string name="mitlic">Copyright &#169; 2016 Michael Brunnbauer\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+   <string name="tou_msg">This software is for testing purpose. Use it with care and only with your cheapest locos! Please read the licensing information and acknowledge the terms of use.</string>
+   <string name="tou_title">Terms of use</string>
+   <string name="tou_sum">I agree</string>
+   <string name="tou_lic_title_hidden">License &#9658;</string>
+   <string name="tou_lic_title_visible">License &#9660;</string>
+   <string name="netw_ntype_wrong">%1$s: network type %2$d not valid!</string>
+   <string name="dialog_devnamechange_titel">Device has reported a different name</string>
+   <string name="dialog_devnamechange_txt">Renamig device %1$s to %2$s?</string>
+   <string name="err_upd_ver_xml_parse">Error parsing updateinfo xml file</string>
+   <string name="test_log_clear">clear log</string>
+   <string name="err_cmdset_dev_undefined">Error: unable to execute macro (target device is undefined).</string>
+   <string name="lokgpio_title">%1$s GPIO configuration</string>
+   <string name="lokgpio_pinname_atmega" translatable="false">P%1$s%2$d</string>
+   <string name="lokgpio_namedialog_title">Set custom name for pin</string>
+   <string name="mnu_gpiocfg_name">Set custom name</string>
+   <string name="mnu_gpiocfg_use">Use Pin</string>
+   <string name="mnu_gpiocfg_release">Release Pin</string>
+   <string name="lokgpio_switch_txt">Output</string>
+   <string name="lokgpio_switch_on">On</string>
+   <string name="lokgpio_switch_off">Off</string>
+   <string name="prot_wbcontrol_cmd_gpio" translatable="false">&lt;gpio:%1$s:%2$d:%3$d&gt;</string>
+   <string name="prot_wbcontrol_cmd_gpioset" translatable="false">&lt;gpioset:%1$s:%2$d&gt;</string>
+   <string name="prot_wbcontrol_cmd_gpioclear" translatable="false">&lt;gpioclear:%1$s:%2$d&gt;</string>
+</resources>

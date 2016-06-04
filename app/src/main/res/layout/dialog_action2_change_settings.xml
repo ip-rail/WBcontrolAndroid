@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/space_std_w"
+        android:gravity="center_vertical"
+        android:text="@string/dialog_action2_grid_title"
+        android:textAppearance="@style/txt_dialog_headline" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/space_std_h" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/space_std_w"
+            android:background="@color/grau2"
+            android:orientation="vertical"
+            android:padding="@dimen/space_std_w" >
+
+            <Button
+                android:id="@+id/button_dialog_action2_cs_rowplus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gen_add" />
+
+            <TextView
+                android:id="@+id/textview_dialog_action2_cs_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/dialog_action2_row"
+                android:textAppearance="@style/txt_dialog_txt" />
+
+            <Button
+                android:id="@+id/button_dialog_action2_cs_rowminus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gen_minus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/space_std_w"
+            android:background="@color/grau2"
+            android:orientation="vertical"
+            android:padding="@dimen/space_std_w" >
+
+            <Button
+                android:id="@+id/button_dialog_action2_cs_colplus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gen_add" />
+
+            <TextView
+                android:id="@+id/textview_dialog_action2_cs_col"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/dialog_action2_col"
+                android:textAppearance="@style/txt_dialog_txt" />
+
+            <Button
+                android:id="@+id/button_dialog_action2_cs_colminus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gen_minus" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/space_std_w" >
+
+        <Button
+            android:id="@+id/button_dialog_ramp_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_std_w"
+            android:minHeight="64dp"
+            android:minWidth="100dp"
+            android:paddingBottom="@dimen/space_std_h"
+            android:paddingLeft="@dimen/space_std_w"
+            android:paddingRight="@dimen/space_std_w"
+            android:paddingTop="@dimen/space_std_h"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/button_dialog_ramp_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_std_w"
+            android:minHeight="64dp"
+            android:minWidth="100dp"
+            android:paddingBottom="@dimen/space_std_h"
+            android:paddingLeft="@dimen/space_std_w"
+            android:paddingRight="@dimen/space_std_w"
+            android:paddingTop="@dimen/space_std_h"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

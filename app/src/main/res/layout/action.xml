@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <GridView android:layout_weight="1" android:id="@+id/gridView_action" android:layout_width="fill_parent" android:longClickable="true" android:gravity="center" android:layout_height="fill_parent" android:horizontalSpacing="10dip" android:verticalSpacing="10dip" android:columnWidth="100dp" android:numColumns="auto_fit" android:stretchMode="columnWidth"></GridView>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_action_addae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_addae" >
+</Button>
+
+        <ImageButton
+            android:id="@+id/imageButton_action_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="64dp"
+            android:minWidth="100dp"
+            android:src="@drawable/info1" >
+
+</ImageButton>
+    </LinearLayout>
+    
+</LinearLayout>

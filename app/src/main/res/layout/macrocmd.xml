@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp" >
+
+    <TextView
+        android:id="@+id/textView_mcmd_auto"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="1dp"
+        android:background="@color/mcmd_bg_off"
+        android:gravity="center"
+        android:paddingLeft="@dimen/space_std_h"
+        android:paddingRight="@dimen/space_std_h"
+        android:text="@string/mcmd_auto"
+        android:textSize="@dimen/mcmd_txtsize_onoff" />
+
+    <TextView
+        android:id="@+id/textView_mcmd_onoff"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="1dp"
+        android:background="@color/mcmd_bg_off"
+        android:gravity="center"
+        android:paddingLeft="@dimen/space_std_h"
+        android:paddingRight="@dimen/space_std_h"
+        android:text="@string/mcmd_off"
+        android:textSize="@dimen/mcmd_txtsize_onoff" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_event"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1"
+        android:background="@color/mcmd_bg_off"
+        android:paddingLeft="@dimen/space_std_h"
+        android:paddingRight="@dimen/space_std_h" >
+
+        <TextView
+            android:id="@+id/textView_mcmd_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="@dimen/mcmd_space_v_info"
+            android:paddingTop="@dimen/space_std_h"
+            android:text="@string/mcmd_event"
+            android:textSize="@dimen/mcmd_txtsize_info" />
+
+        <TextView
+            android:id="@+id/textView_mcmd_eventname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView_mcmd_event"
+            android:paddingBottom="@dimen/space_std_h"
+            android:text="TextView"
+            android:textSize="@dimen/mcmd_txtsize_name" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_macro"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/mcmd_bg_off"
+        android:paddingLeft="@dimen/space_std_h"
+        android:paddingRight="@dimen/space_std_h" >
+
+        <TextView
+            android:id="@+id/textView_mcmd_macro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="@dimen/mcmd_space_v_info"
+            android:paddingTop="@dimen/space_std_h"
+            android:text="@string/mcmd_macro"
+            android:textSize="@dimen/mcmd_txtsize_info" />
+
+        <TextView
+            android:id="@+id/textView_mcmd_macroname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView_mcmd_macro"
+            android:paddingBottom="@dimen/space_std_h"
+            android:text="TextView"
+            android:textSize="@dimen/mcmd_txtsize_name" />
+
+    </RelativeLayout>
+
+</LinearLayout>

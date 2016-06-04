@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="grau1">#999999</color>
+    <color name="grau2">#777777</color>
+    <color name="grau3">#ff444444</color>
+    <color name="gruen1">#ff009900</color>
+    <color name="blue_license">#0697cf</color>
+    <color name="SpeedbarYellowEnd">#ffffcb00</color>
+    <color name="SpeedbarYellowCenter">#ffffb600</color>
+    <color name="SpeedbarYellowStart">#ffffd300</color>
+    <color name="SpeedbarSecondaryRed">#ffff0000</color>
+    <color name="RampGrey">#ff6c7073</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="bgselect1">#ff0094CE</color>
+    <color name="bgselect2">#ffACD52B</color>
+    <color name="loklist_online">#ff009900</color>
+    <color name="loklist_offline">#ffBB0000</color>
+    <color name="loklist_transp_grey1">#55777777</color>
+    <color name="loklist_transp_ora1">#55ffa911</color>
+    
+    <!-- macrocmd listview item -->
+    <color name="mcmd_auto_active">#fff03b08</color>
+    <color name="mcmd_bg_on">#ffe3e0e0</color> <!-- on background -->
+    <color name="mcmd_bg_off">#ff7a706e</color> <!-- off background -->
+    
+    
+</resources>

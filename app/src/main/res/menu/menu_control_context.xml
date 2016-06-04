@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/mnu_action_add" android:id="@+id/menui_ctrl_add"></item>
+    <item android:title="@string/mnu_action_move" android:id="@+id/menui_ctrl_move"></item>
+    <item android:title="@string/mnu_action_edit" android:id="@+id/menui_ctrl_edit"></item>
+    <item android:title="@string/mnu_action_del" android:id="@+id/menui_ctrl_del"></item>
+    <item android:title="@string/mnu_action_exit" android:id="@+id/menui_ctrl_exit"></item>
+    
+</menu>

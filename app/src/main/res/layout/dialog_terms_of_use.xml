@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tou_msg"
+        android:id="@+id/textView_tou_msg"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tou_lic_title_hidden"
+        android:id="@+id/textView_tou_lic_title"
+        android:textAppearance="@style/txt_tou_lictitle"
+        android:paddingBottom="8dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:scrollbars="vertical"
+        android:fillViewport="false"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mitlic"
+            android:id="@+id/textView_tou_lic"
+            android:visibility="gone" />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tou_sum"
+        android:id="@+id/textView_tou_sum"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="8dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gen_no"
+            android:id="@+id/button_tou_no"
+            android:minWidth="@dimen/button_min_w"
+            android:minHeight="@dimen/button_min_h"
+            android:layout_marginRight="36dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gen_yes"
+            android:id="@+id/button_tou_yes"
+            android:minHeight="@dimen/button_min_h"
+            android:minWidth="@dimen/button_min_w" />
+    </LinearLayout>
+</LinearLayout>

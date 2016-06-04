@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="txt_normal_standard" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_med</item>
+    </style>
+    <style name="txt_large_standard" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="txt_headline_standard" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="txt_log_standard" parent="@android:style/TextAppearance"><item name="android:textSize">@dimen/font_size_small</item></style>
+    <style name="txt_dialog_btntxt" parent="@android:style/TextAppearance"><item name="android:textStyle">bold</item><item name="android:textSize">@dimen/font_size_large</item></style>
+    <style name="txt_dialog_txt" parent="@android:style/TextAppearance"><item name="android:textStyle">bold</item><item name="android:textSize">@dimen/font_size_med</item></style>
+    <style name="txt_dialog_headline" parent="@android:style/TextAppearance"><item name="android:textSize">@dimen/font_size_large</item></style><style name="txt_text_devlist_ip" parent="@android:style/TextAppearance"><item name="android:textSize">@dimen/font_size_small</item></style>
+    <style name="txt_listrow_big" parent="@android:style/TextAppearance"><item name="android:textStyle">normal</item><item name="android:textSize">@dimen/font_size_med</item></style>
+    <style name="txt_tou_lictitle" parent="@android:style/TextAppearance"><item name="android:textColor">@color/blue_license</item><item name="android:textStyle">bold</item><item name="android:textSize">@dimen/font_size_med</item></style>
+
+    
+</resources>

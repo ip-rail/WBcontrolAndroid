@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView_lokdata"
+        android:layout_width="@dimen/lokpic_w"
+        android:layout_height="@dimen/lokpic_h"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart" />
+
+    <TextView
+        android:id="@+id/textView_lokdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/imageView_lokdata"
+        android:layout_alignTop="@id/imageView_lokdata"
+        android:background="@color/loklist_transp_grey1"
+        android:padding="4dp"
+        android:text="TextView"
+        android:textAppearance="@style/txt_listrow_big" />
+
+    <ListView
+        android:id="@+id/listView_lokdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/imageView_lokdata" >
+    </ListView>
+
+    <ImageView
+        android:id="@+id/imageView_lokdata_online"
+        android:layout_width="@dimen/loklist_online_size"
+        android:layout_height="@dimen/loklist_online_size"
+        android:layout_alignTop="@id/imageView_lokdata"
+        android:layout_margin="@dimen/space_std_h"
+        android:layout_toRightOf="@id/imageView_lokdata"
+        android:background="@color/loklist_offline" />
+
+    <ImageView
+        android:id="@+id/imageView_lokdata_man"
+        android:layout_width="@dimen/loklist_online_size"
+        android:layout_height="@dimen/loklist_online_size"
+        android:layout_below="@id/imageView_lokdata_online"
+        android:layout_margin="@dimen/space_std_h"
+        android:layout_toRightOf="@id/imageView_lokdata"
+        android:src="@drawable/loklist_manual" />
+
+    <TextView
+        android:id="@+id/textView_lokdata_online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageView_lokdata_online"
+        android:layout_toRightOf="@id/imageView_lokdata_online"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/textView_lokdata_man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageView_lokdata_man"
+        android:layout_toRightOf="@id/imageView_lokdata_man"
+        android:text="TextView" />
+
+</RelativeLayout>

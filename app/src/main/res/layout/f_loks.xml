@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner_lok_select"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip" />
+    <ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="4dp">
+
+            <ImageView
+                android:id="@+id/imageView_lok"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp" android:scaleType="fitStart" android:maxHeight="100dp" android:layout_marginBottom="8dp" android:adjustViewBounds="true"/>
+
+            <TextView android:text="@string/loks_sw" android:id="@+id/textView_loks_sw" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="@string/loks_protocol" android:id="@+id/textView_loks_protocol" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="@string/loks_owner" android:id="@+id/textView_loks_owner" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="@string/loks_type" android:id="@+id/textView_loks_type" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="@string/loks_wlan" android:id="@+id/textView_loks_wlan" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <CheckBox android:id="@+id/checkBox_loks_motorcontrol" android:text="@string/loks_motorcontrol" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+            <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/loks_adc" android:id="@+id/textView_loks_adc" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                <ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:id="@+id/toggleButton_lok_adc" android:layout_height="wrap_content" android:layout_marginLeft="10dip"></ToggleButton>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="@string/loks_pwmf" android:id="@+id/textView_loks_pwmf" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                <Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginLeft="20dip" android:id="@+id/spinner_lok_pwm"></Spinner>
+            </LinearLayout>
+            <TextView android:text="@string/loks_opt_props" android:id="@+id/textView_loks_opt_props" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

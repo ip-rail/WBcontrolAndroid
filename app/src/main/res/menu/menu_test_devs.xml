@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menui_testdevs_edit" android:title="@string/mnu_testdevs_edit"></item>
+    <item android:id="@+id/menui_testdevs_del" android:title="@string/mnu_testdevs_del"></item>
+    
+</menu>

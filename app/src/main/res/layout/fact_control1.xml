@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!-- The main content views -->
+
+<LinearLayout
+    android:id="@+id/fact_control_fragcontainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/fact_control_fragcontainer1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/space_std_h"
+        android:layout_marginLeft="@dimen/space_std_w"
+        android:layout_marginRight="@dimen/space_std_w"
+        android:layout_marginTop="@dimen/space_std_h"
+        android:layout_weight="1" >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fact_control_fragcontainer_act"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </FrameLayout>
+
+</LinearLayout>
+
+ <!-- The navigation drawer -->
+    <ListView android:id="@+id/navi_drawer"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:background="@color/grau3"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@color/grau2"
+        android:dividerHeight="1px"/>
+
+
+</android.support.v4.widget.DrawerLayout>

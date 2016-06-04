@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_small">20sp</dimen>
+    <dimen name="font_size_med">22sp</dimen>
+    <dimen name="font_size_large">24sp</dimen>
+    <dimen name="button_min_w">100dp</dimen>
+    <dimen name="button_max_w">400dp</dimen>
+    <dimen name="button_min_h">64dp</dimen>
+    <dimen name="button_max_h">256dp</dimen>
+    <dimen name="space_std_w">16dp</dimen>
+    <dimen name="space_std_h">14dp</dimen>
+    
+</resources>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="actionelement_typ" translatable="false">
+        <item>Text</item>
+        <item>Button</item>
+        <item>BildButton</item>
+        <item>Bild</item>
+        <item>on/off Button</item>
+        <item >Daten</item>
+    </string-array>
+    <string-array name="actionelement_macroscope_typ" translatable="false">
+        <item>aktuell gesteuertes</item>
+        <item>namentlich genannte</item>
+        <item>alle namentlich aufgeführten</item>
+        <item>alle bekannten</item>
+        <item>alle verbundenen</item>
+        <item>alle eines Typs</item>
+        <item>alle verbundenen eines Typs</item>
+    </string-array>
+    <string-array name="test_level1" translatable="false">
+        <item>Log</item>
+        <item>CamControl</item>
+        <item>Video Test</item>
+        <item>Gleisplan Test</item>
+        <item>Stream</item>
+        <item>nach Online-Update suchen</item>
+        <item>Hardkeys</item>
+    </string-array>
+    <string-array name="loglevel" translatable="false">
+        <item>Normal</item>
+        <item>Test</item>
+    </string-array>
+    <string-array name="macro_typ" translatable="false">
+        <item >Macros</item>
+        <item >Ereignisse</item>
+        <item >RFIDs</item>
+    </string-array>
+    <string-array name="config_level1" translatable="false">
+        <item >Netzwerk</item>
+        <item >Steuerung</item>
+        <item >Display</item>
+    </string-array>
+    <string-array name="config_name" translatable="false">
+        <item >manuelle Lok-IP</item>
+        <item >tcp-Port</item>
+        <item >udp-Port</item>
+        <item >udp verwenden</item>
+        <item >tcp-Server-Port</item>
+        <item >Server verwenden</item>
+        <item >Speedstufen Standardwert</item>
+        <item >Rangierspeed max. (Standardwert)</item>
+        <item >Anzeigemodus</item>
+        <item >Bildschirmaufteilung erzwingen</item>
+        <item >Bildschirmschoner</item>
+        <item >Schriftgröße</item>
+        <item >Programmmodus</item>
+        <item >Anzeige-Theme</item>
+        <item >verwendetes Netzwerk</item>
+        <item >Programmupdates suchen</item>
+        <item >Gästemodus aktivieren</item>
+        <item >Gästemodus beenden</item>
+        <item >Gästemodus Passwort</item>
+        <item >manuell gesteuerte Lok stoppen bei</item>
+    </string-array>
+    <integer-array name="config_type" translatable="false">
+        <item >4</item>
+        <item >5</item>
+        <item >5</item>
+        <item >2</item>
+        <item >5</item>
+        <item >2</item>
+        <item >3</item>
+        <item >6</item>
+        <item >3</item>
+        <item >3</item>
+        <item >3</item>
+        <item >6</item>
+        <item >3</item>
+        <item >3</item>
+        <item >3</item>
+        <item >3</item>
+        <item >3</item>
+        <item >3</item>
+        <item >1</item>
+        <item >7</item>
+    </integer-array>
+    <integer-array name="config_group" translatable="false">
+        <item >0</item>
+        <item >0</item>
+        <item >0</item>
+        <item >0</item>
+        <item >0</item>
+        <item >0</item>
+        <item >1</item>
+        <item >1</item>
+        <item >2</item>
+        <item >2</item>
+        <item >2</item>
+        <item >2</item>
+        <item >1</item>
+        <item >2</item>
+        <item >0</item>
+        <item >0</item>
+        <item >1</item>
+        <item >1</item>
+        <item >1</item>
+        <item >1</item>
+    </integer-array>
+    <string-array name="config_description" translatable="false">
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item ></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+    </string-array>
+    <string-array name="layout_types" translatable="false">
+        <item >Steuerung links</item>
+        <item >Steuerung rechts</item>
+    </string-array>
+    <string-array name="wakelock_type" translatable="false">
+        <item >aktiv</item>
+        <item >nur Helligkeit wird reduziert</item>
+        <item >deaktiviert</item>
+    </string-array>
+    <integer-array name="speedsteps" translatable="false">
+        <item >128</item>
+        <item >256</item>
+        <item >512</item>
+        <item >1024</item>
+    </integer-array>
+    <string-array name="runmode_types" translatable="false">
+        <item >Normal</item>
+        <item >Test</item>
+    </string-array>
+    <string-array name="theme_types" translatable="false">
+        <item >Dunkel (Standard)</item>
+        <item >Hell</item>
+    </string-array>
+    <string-array name="fragment_tags" translatable="false">
+        <item >unknown</item>
+        <item >CONTROL</item>
+        <item >ACTION</item>
+        <item >ACTION_EDIT</item>
+        <item >LOKS</item>
+        <item >MACRO_OVERVIEW</item>
+        <item >MACRO_EDIT</item>
+        <item >MACRO_ADDDEV</item>
+        <item >TEST_LEVEL1</item>
+        <item >LOG</item>
+        <item >DEVICES</item>
+        <item >CFG_LEVEL1</item>
+        <item >CFG_LEVEL2</item>
+        <item >VIDEO_TEST</item>
+        <item >TRACKS_TEST</item>
+        <item >STREAM_TEST</item>
+        <item >HARDKEYS</item>
+        <item >CAMCONTROL</item>
+        <item >LOKLIST</item>
+        <item >LOKDETAILS</item>
+        <item >LOKGPIOCFG</item>
+        <item >QUICKACTION</item>
+    </string-array>
+    <string-array name="fragment_names" translatable="false">
+        <item >unknown</item>
+        <item >Control</item>
+        <item >Action</item>
+        <item >ACTION_EDIT</item>
+        <item >Loks</item>
+        <item >Macros</item>
+        <item >MACRO_EDIT</item>
+        <item >MACRO_ADDDEV</item>
+        <item >Test</item>
+        <item >Log</item>
+        <item >Devices</item>
+        <item >Einstellungen</item>
+        <item >CFG_LEVEL2</item>
+        <item >VIDEO_TEST</item>
+        <item >TRACKS_TEST</item>
+        <item >STREAM_TEST</item>
+        <item >HARDKEYS</item>
+        <item >CAMCONTROL</item>
+        <item >Loks</item>
+        <item >Lokdetails</item>
+        <item >Lok GPIO Konfiguration</item>
+        <item >Quickaction</item>
+    </string-array>
+    <string-array name="actionelement_locations" translatable="false">
+        <item >Action</item>
+        <item >Ctrl linke Spalte</item>
+        <item >Ctrl rechte Spalte</item>
+    </string-array>
+    <string-array name="actionelement_datatype" translatable="false">
+        <item >Trainspeed</item>
+        <item >Spannung: ADC0</item>
+        <item >Spannung: ADC1</item>
+        <item >Spannung: ADC2</item>
+        <item >Spannung: ADC3</item>
+        <item >Spannung: ADC4</item>
+        <item >Spannung: ADC5</item>
+        <item >Spannung: ADC6</item>
+        <item >Spannung: ADC7</item>
+    </string-array>
+    <string-array name="actionelement_datatype_pretxt" translatable="false">
+        <item >TS=</item>
+        <item >U0=</item>
+        <item >U1=</item>
+        <item >U2=</item>
+        <item >U3=</item>
+        <item >U4=</item>
+        <item >U5=</item>
+        <item >U6=</item>
+        <item >U7=</item>
+
+    </string-array>
+    <string-array name="dialog_cfl_devicetypes" translatable="false">
+        <item >alle</item>
+        <item >Loks</item>
+        <item >Controller</item>
+    </string-array>
+    <string-array name="streamsources" translatable="false">
+        <item >http://10.0.0.90:8090/?action=stream</item>
+        <item >http://10.0.0.90</item>
+        <item >http://10.0.0.90/cam_pic.php</item>
+        <item >http://trackfield.webcam.oregonstate.edu/axis-cgi/mjpg/video.cgi?resolution=640x480&amp;amp%3bdummy=1333689998337</item>
+    </string-array>
+    <string-array name="ftrackplan_actions" translatable="false">
+        <item >Plan speichern</item>
+        <item >Plan laden</item>
+        <item >neuer Plan</item>
+        <item >ein plan aus DB löschen</item>
+    </string-array>
+    <string-array name="speedmode" translatable="false">
+        <item >Geschwindigkeitsstufen</item>
+        <item >km/h</item>
+    </string-array>
+    <string-array name="layout_div_mode" translatable="false">
+        <item >Nichts erzwingen</item>
+        <item >1 Anzeigebereich (Handy)</item>
+        <item >2 Anzeigebereiche (Tablet)</item>
+        <item >mehrere Anzeigebereiche (großes Tablet)</item>
+    </string-array>
+    <string-array name="cfg_check_update" translatable="false">
+        <item >nicht automatisch suchen</item>
+        <item >nur bei WLAN-Verbindung</item>
+        <item >immer</item>
+    </string-array>
+    <string-array name="cfg_guestmode_end" translatable="false">
+        <item >nur mit Schlüssel-Button</item>
+        <item >Passworteingabe notwendig</item>
+    </string-array>
+    <string-array name="cfg_lokstopmodes" translatable="false">
+        <item >Telefonanruf</item>
+        <item >Schienenspannung zu niedrig</item>
+        <item >Steuerung ist nicht aktiv</item>
+        <item >keine Netzwerkverbindung zur Lok</item>
+    </string-array>
+    <string-array name="hardkey_type" translatable="false">
+        <item >Taste</item>
+        <item >Taste mit Wiederholfunktion</item>
+        <item >Taste + Lang-Klick-Funktion</item>
+        <item >Ein/Aus Taste</item>
+    </string-array>
+    <string-array name="hardkey_function" translatable="false">
+        <item >keine Funktion</item>
+        <item >Start</item>
+        <item >Stop</item>
+        <item >Speed +</item>
+        <item >Speed -</item>
+        <item >alle Pause</item>
+        <item >alle Stop</item>
+        <item >Richtungsänderung</item>
+        <item >Macro</item>
+    </string-array>
+    <string-array name="hardkey_type_info" translatable="false">
+        <item >Funktion nur 1x pro Tastendruck</item>
+        <item >Funktion wird bei längerem Druck mehrfach ausgeführt (&quot;Dauerfeuer&quot;)</item>
+        <item >Spezialfunktion bei langem Druck</item>
+        <item >unterschiedliche Funktionen für 1. und 2. Druck</item>
+    </string-array>
+    <string-array name="lokdata_name" translatable="false">
+        <item>Name</item>
+        <item>IP-Adresse</item>
+        <item>Besitzer</item>
+        <item>Speedstufen</item>
+        <item>Rangierspeed Maximalwert</item>
+        <item>Loksoftware</item>
+        <item>Protokoll</item>
+        <item>Motor-PWM-Frequenz</item>
+        <item>Macros</item>
+        <item>Lebenszeichen checken</item>
+        <item>GPIO Konfiguration</item>
+        <item>Hardware</item>
+    </string-array>
+    <integer-array name="lokdata_order" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </integer-array>
+    <integer-array name="lokdata_vtype" translatable="false">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="pwmf_text" translatable="false">
+        <item>122Hz</item>
+        <item>245Hz</item>
+        <item>490Hz</item>
+        <item>977Hz</item>
+        <item>1957Hz</item>
+        <item>3921Hz</item>
+        <item>7820Hz</item>
+        <item>15656Hz</item>
+        <item>31372Hz</item>
+    </string-array>
+
+    <string-array name="gpio_filter" translatable="false">
+        <item>alle</item>
+        <item>nur aktivierte</item>
+    </string-array>
+
+    <string-array name="hardware_id" translatable="false">
+        <item>unbekannt</item>
+        <item>UC02 mit ATMega2561</item>
+        <item>Raspi mit servermode = 0 (transparenter modus)</item>
+        <item>Raspi mit servermode = 1 (Raspi ist der Master-Controller der Lok)</item>
+        <item>ATMega328</item>
+    </string-array>
+</resources>
