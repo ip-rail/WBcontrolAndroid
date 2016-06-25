@@ -206,7 +206,7 @@
     <string name="startup_noipv6">Notice: WBcontrol doesn\'t work with IPv6-Addresses.</string>
     <string name="startup_base_started">Basis-Service wurde gestartet&#x2026;</string>
     <string name="startup_base_rdy">Basis-Service ist bereit!</string>
-    <string name="startup_infos">Version Infos v%1$d\nMany new features</string>
+    <string name="startup_infos">Version Infos v%1$d\n\nChanges:\nApp Update\nLoco GPIO Configuration</string>
     <string name="startup_man_conn">manual connection</string>
     <string name="dialog_key_title">Enter password</string>
    <string name="dialog_key_infotxt">for exiting guest-mode</string>

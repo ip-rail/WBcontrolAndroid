@@ -120,7 +120,7 @@
     <string name="dialog_upd_bt_dlandinst">gleich installieren</string>
     <string name="dialog_upd_bt_download">nur Download</string>
     <string name="dialog_upd_msgtxt">Es ist ein Update für WBcontrol online verfügbar. Soll es heruntergeladen und installiert werden?</string>
-    <string name="startup_infos">Version Infos v%1$d\nViele Neuerungen…</string>
+    <string name="startup_infos">Version Infos v%1$d\n\nNeuerungen:\nApp Update\nLok GPIO Konfiguration</string>
     <string name="track_tools">Werkzeuge</string>
     <string name="trackplan_actions">Menü</string>
     <string name="trackplan_dialog_actions_title">Aktionen</string>
