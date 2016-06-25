@@ -135,7 +135,7 @@ public class WBupdateParser {
             String tagname = parser.getName();
             if (tagname.equals("name")) {
                 name = readTag(parser, "name");
-            } else if (tagname.equals("summary")) {
+            } else if (tagname.equals("platform")) {
                 platform = readTag(parser, "platform");
             } else if (tagname.equals("type")) {
                 type = readTag(parser, "type");
