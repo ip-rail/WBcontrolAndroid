@@ -95,7 +95,6 @@ public class Basis extends Service {
 	private static Handler loghandler;					// Handler für Logeinträge, damit diese an den UI-Thread gepostet werden können
 	private static Timer fastTimer;	// 200ms Timer für diverse Aufgaben
 	private static int configfraggroup;					// zum Zwischenspeichern der aktuellen configGroup des cfg_level2-Fragments beim Restart der Activity wg. Einstellungsänderung bei Apilevel < 11
-	// private static int aktuellesfragment;	//TODO: aktuellesfragment entfernen			// zum Zwischenspeichern des aktuellen Fragments. IDs siehe FAct_control.java (bei DualView und MultiView ist es das 2. Fragment (nach dem Std-Control)
 	private static Thread UDPwaiterThread;
 	private static DatagramSocket UDPsocket = null;
 	private static Device CCDevice;			// das aktuell zu steuernde Device bzw. null / statt cdindex
